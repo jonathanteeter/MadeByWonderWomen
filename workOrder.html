@@ -1,0 +1,78 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Work Order</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name"><br>
+
+    <header>
+        <div class= "topOfForm">
+
+            <h1>When you want it done...beautifully</h1>
+            <h3><a href="www.maidbywonderwomen.com">maidbywonderwomen.com</a>&nbsp&nbsp&nbsp&nbsp&nbsp720-788-0878<br><br><br></h3>
+            <h2><strong>WORK ORDER</strong></h2>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+            <div class="col-25">
+                <label for="fname">Client's name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="cname" name="clientName" placeholder="Client's name..">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="lname">Client's address</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="caddress" name="clientAddress" placeholder="Client's address..">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+            </div>
+            <div class="row">
+            <input type="submit" value="Submit">
+            </div>
+        </form>
+        </div>
+          
+
+
+</body>
+
+</html>
