@@ -23,6 +23,7 @@ input[type=text], select, textarea {
 
 label {
     padding: 12px 12px 12px 0;
+    /* margin-left: 20px; */
     display: inline-block;
 }
 
@@ -157,12 +158,21 @@ input[type=submit]:hover {
     margin-top: 20px;
   }
 
+  h3 {
+      display: inline-block;
+      margin-right: 20px;
+      text-align: center;
+
+    /* font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px; */
+  }
+
   a {
     color: blue;
   }
   
   .topOfForm {
-    width: 1024;
     margin: 0 auto;
     text-align: center;
   }
